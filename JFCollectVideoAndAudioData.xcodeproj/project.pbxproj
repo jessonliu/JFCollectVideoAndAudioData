@@ -15,6 +15,7 @@
 		A430480B1E4C0DC900D8B092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43048091E4C0DC900D8B092 /* LaunchScreen.storyboard */; };
 		A43048161E4C0DC900D8B092 /* JFCollectVideoAndAudioDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43048151E4C0DC900D8B092 /* JFCollectVideoAndAudioDataTests.m */; };
 		A43048211E4C0DC900D8B092 /* JFCollectVideoAndAudioDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43048201E4C0DC900D8B092 /* JFCollectVideoAndAudioDataUITests.m */; };
+		A43048301E4C0FC600D8B092 /* JFCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A430482F1E4C0FC600D8B092 /* JFCaptureSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A430481C1E4C0DC900D8B092 /* JFCollectVideoAndAudioDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFCollectVideoAndAudioDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43048201E4C0DC900D8B092 /* JFCollectVideoAndAudioDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFCollectVideoAndAudioDataUITests.m; sourceTree = "<group>"; };
 		A43048221E4C0DC900D8B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A430482E1E4C0FC600D8B092 /* JFCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCaptureSession.h; sourceTree = "<group>"; };
+		A430482F1E4C0FC600D8B092 /* JFCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCaptureSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A43047FF1E4C0DC900D8B092 /* AppDelegate.m */,
 				A43048011E4C0DC900D8B092 /* ViewController.h */,
 				A43048021E4C0DC900D8B092 /* ViewController.m */,
+				A430482E1E4C0FC600D8B092 /* JFCaptureSession.h */,
+				A430482F1E4C0FC600D8B092 /* JFCaptureSession.m */,
 				A43048041E4C0DC900D8B092 /* Main.storyboard */,
 				A43048071E4C0DC900D8B092 /* Assets.xcassets */,
 				A43048091E4C0DC900D8B092 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43048031E4C0DC900D8B092 /* ViewController.m in Sources */,
+				A43048301E4C0FC600D8B092 /* JFCaptureSession.m in Sources */,
 				A43048001E4C0DC900D8B092 /* AppDelegate.m in Sources */,
 				A43047FD1E4C0DC900D8B092 /* main.m in Sources */,
 			);
@@ -430,7 +436,7 @@
 				DEVELOPMENT_TEAM = X4W3EU4NUW;
 				INFOPLIST_FILE = JFCollectVideoAndAudioData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-JFLivePlaye.www.JFCollectVideoAndAudioData";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JFCollectVideoAndAudioData.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -442,7 +448,7 @@
 				DEVELOPMENT_TEAM = X4W3EU4NUW;
 				INFOPLIST_FILE = JFCollectVideoAndAudioData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-JFLivePlaye.www.JFCollectVideoAndAudioData";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JFCollectVideoAndAudioData.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
